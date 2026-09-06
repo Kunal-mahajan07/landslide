@@ -1339,12 +1339,11 @@ function App() {
           <div className="panel-header sensor-header">
             <div>
               <h2>
-                Environmental Sensor Network
+                Environmental Monitoring Network
               </h2>
 
               <p>
-                Simulated prototype monitoring
-                readings
+                Live environmental readings from monitored locations
               </p>
             </div>
 
@@ -2170,7 +2169,16 @@ function App() {
 
       <main className="main-content">
         <header className="topbar">
-          <div className="topbar-left-clean" aria-hidden="true" />
+          <div className="topbar-page-info">
+            <div className="breadcrumb" aria-label="Breadcrumb">
+              <span className="breadcrumb-home">GeoDrishti</span>
+              <span className="breadcrumb-separator">/</span>
+              <span className="breadcrumb-current">{currentPage.title}</span>
+            </div>
+
+            <h1>{currentPage.title}</h1>
+            <p>{currentPage.subtitle}</p>
+          </div>
 
           <div className="topbar-actions">
             <div className="live-status">

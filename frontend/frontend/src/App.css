@@ -2487,3 +2487,155 @@ td small {
     padding: 18px 20px 30px;
   }
 }
+
+
+/* =======================================================
+   CLEAR BREADCRUMBS + PAGE HEADER
+   ======================================================= */
+.topbar {
+  width: 100%;
+  min-height: 92px;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 34px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5eaf1;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.topbar-page-info {
+  flex: 1 1 auto;
+  min-width: 0;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.topbar-page-info .breadcrumb {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #667085 !important;
+  opacity: 1 !important;
+  filter: none !important;
+  visibility: visible !important;
+}
+
+.topbar-page-info .breadcrumb span {
+  opacity: 1 !important;
+  filter: none !important;
+  visibility: visible !important;
+}
+
+.topbar-page-info .breadcrumb-home {
+  color: #667085 !important;
+}
+
+.topbar-page-info .breadcrumb-separator {
+  color: #98a2b3 !important;
+  font-weight: 700;
+}
+
+.topbar-page-info .breadcrumb-current {
+  color: #1d2939 !important;
+  font-weight: 700;
+}
+
+.topbar-page-info h1 {
+  display: block !important;
+  margin: 0;
+  color: #101828 !important;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 750;
+  letter-spacing: -0.35px;
+  opacity: 1 !important;
+  filter: none !important;
+  visibility: visible !important;
+}
+
+.topbar-page-info p {
+  display: block !important;
+  margin: 4px 0 0;
+  color: #667085 !important;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 1 !important;
+  filter: none !important;
+  visibility: visible !important;
+}
+
+.topbar-actions {
+  flex: 0 0 auto;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    min-height: 82px;
+    padding: 14px 20px;
+  }
+
+  .topbar-page-info h1 {
+    font-size: 18px;
+  }
+
+  .topbar-page-info p {
+    font-size: 11px;
+  }
+
+  .topbar-page-info .breadcrumb {
+    font-size: 11px;
+  }
+}
+
+
+/* =======================================================
+   CRISP LIGHT PANEL HEADERS
+   ======================================================= */
+.panel-header,
+.panel-header > div,
+.panel-header h2,
+.panel-header p {
+  opacity: 1 !important;
+  filter: none !important;
+  visibility: visible !important;
+  text-shadow: none !important;
+  mix-blend-mode: normal !important;
+}
+
+.panel-header h2 {
+  color: #172033 !important;
+  font-size: 16px !important;
+  line-height: 1.35 !important;
+  font-weight: 750 !important;
+  letter-spacing: -0.2px !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.panel-header p {
+  color: #667085 !important;
+  font-size: 11px !important;
+  line-height: 1.45 !important;
+  font-weight: 500 !important;
+}
+
+.sensor-header {
+  background: #ffffff !important;
+}
+
+.sensor-header > div:first-child {
+  opacity: 1 !important;
+}
